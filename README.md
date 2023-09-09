@@ -1,7 +1,26 @@
 # my_slack_profile
 
+![cover image](git_profile.png)
+
 A new Flutter project.
+This is an App That shows a little about me, basically my github profile 
 
-## Getting Started
+it displays my slack profile pic, 
+it displays my slack profile name, 
+it has an in app WebView that loads your GitHub profile
 
-This project is A HNG stage one project opening my github profile using WebView to open my github profile from clicking on a button
+Appetize link: https://appetize.io/app/i6uv2pfvyl3wyy2as7pwf5swyi?device=pixel4&osVersion=12.0&scale=75
+
+Installation Guide: 
+    go to github
+    Go to: https://github.com/andymaking/my_slack_profile_stage_one
+    clone the repository on their laptop, 
+    then go to the folder and run "flutter pub get" to load the dependencies and then use flutter run to run the app on your device
+
+Assumptions: 
+    someone running your flutter project must already have flutter and SDKs installed on their system. 
+    Android Studio or Vs code environment
+    An android phone connected to the system on developer mode and Usb debugging enabled
+    Or iOs simulator (If you are using a MacBook), or an Android Emulator 
+Packages used(flutter): 
+    WebView 3.0.2 version
